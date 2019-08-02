@@ -1,0 +1,31 @@
+.accordion {
+
+    button {
+        color: black; 
+    }
+
+    .btn.btn-link{
+        &::after {
+          content: "-";
+          font-weight: bolder;
+          position: absolute;
+          right: 34px;
+          top: 15px;
+          font-size: 30px;
+          
+      
+        }
+      }
+
+      .btn.btn-link.collapsed{
+          &::after{
+            content: "+";
+            font-weight: bolder;
+            position: absolute;
+            right: 30px;
+            top: 15px;
+            font-size: 30px;
+          }
+        
+        }
+}

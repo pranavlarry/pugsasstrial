@@ -1,0 +1,28 @@
+.bd-example(itemscope)
+    #carouselExampleCaptions.carousel.slide(data-ride='carousel')
+        ol.carousel-indicators
+            li.active(data-target='#carouselExampleCaptions', data-slide-to='0')
+            li(data-target='#carouselExampleCaptions', data-slide-to='1')
+            li(data-target='#carouselExampleCaptions', data-slide-to='2')
+        .carousel-inner
+            .carousel-item.active
+                img.d-block.w-100(src='http://eskipaper.com/images/background-pictures-8.jpg', alt='...', itemprop="carouselImage1", value="1")
+                .carousel-caption.d-none.d-md-block
+                    h5 First slide label
+                    p(itemprop="carouselImageDec1") Nulla vitae elit libero, a pharetra augue mollis interdum.
+            .carousel-item
+                img.d-block.w-100(src='https://media.istockphoto.com/photos/christmas-lights-defocused-background-bokeh-gold-blue-picture-id613518332?k=6&m=613518332&s=612x612&w=0&h=Own5MdgJXjNhFd0YUyED1UP3mQsHeNhfML9F-DQYdYw=', alt='...', itemprop="carouselImage1", value="2")
+                .carousel-caption.d-none.d-md-block
+                    h5 Second slide label
+                    p(itemprop="carouselImageDec2") Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            .carousel-item
+                img.d-block.w-100(src='https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/JrbItQz/shining-heart-shapes-loopable-love-background_vywvxljzl__F0000.png', alt='...', itemprop="carouselImage1", value="3")
+                .carousel-caption.d-none.d-md-block
+                    h5 Third slide label
+                    p(itemprop="carouselImageDec3") Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+        a.carousel-control-prev(href='#carouselExampleCaptions', role='button', data-slide='prev')
+            span.carousel-control-prev-icon(aria-hidden='true')
+            span.sr-only Previous
+        a.carousel-control-next(href='#carouselExampleCaptions', role='button', data-slide='next')
+            span.carousel-control-next-icon(aria-hidden='true')
+            span.sr-only Next

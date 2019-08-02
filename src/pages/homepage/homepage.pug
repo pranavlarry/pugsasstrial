@@ -7,10 +7,12 @@ block pageTitle
     title Home Page
 
 block content
-    .container 
-        h2 Some stuff !!
-
+    .content
+        include ../../components/parallaxbanner/parallaxbanner.pug
+        include ../../components/stickynav/stickynav.pug
         include ../../components/accordion/accordion.pug
+        include ../../components/carousel/carousel.pug
+        include ../../components/modal/modal.pug
 
 block pageScripts
     script(src="homepage.js")

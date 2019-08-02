@@ -1,22 +1,23 @@
-nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top
-  a.navbar-brand(href='#') Navbar
-  button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
-    span.navbar-toggler-icon
-  #navbarSupportedContent.collapse.navbar-collapse
-    ul.navbar-nav.mr-auto
-      li.nav-item.active
-        a.nav-link(href='#')
-          | Home 
-          span.sr-only (current)
-      li.nav-item
-        a.nav-link(href='#') Link
-      li.nav-item.dropdown
-        a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
-          | Dropdown
-        .dropdown-menu(aria-labelledby='navbarDropdown')
-          a.dropdown-item(href='#') Action
-          a.dropdown-item(href='#') Another action
-          .dropdown-divider
-          a.dropdown-item(href='#') Something else here
-      li.nav-item
-        a.nav-link.disabled(href='#', tabindex='-1', aria-disabled='true') Disabled
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.sticky-top(itemscope)
+    a.navbar-brand(href='#') 
+        img.d-inline-block.align-top(src='https://image.flaticon.com/teams/slug/nikita-golubev.jpg', width='30', height='30', alt='', itemprop="logo", value="brand")
+    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+    #navbarSupportedContent.collapse.navbar-collapse
+        ul.navbar-nav.mr-auto
+            li.nav-item.active
+                a.nav-link(href='#', itemprop="navitems")
+                    | Home 
+                    span.sr-only (current)
+            li.nav-item
+                a.nav-link(href='#',itemprop="navitems") About
+            li.nav-item.dropdown
+                a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false',itemprop="navitemsDrop")
+                    | Services
+                .dropdown-menu(aria-labelledby='navbarDropdown')
+                    a.dropdown-item(href='#') Java
+                    a.dropdown-item(href='#') Java Script
+                    a.dropdown-item(href='#') React Js
+                    a.dropdown-item(href='#') PHP
+            li.nav-item
+                a.nav-link(href='#carouselExampleCaptions',itemprop="navitems") Portfolio
