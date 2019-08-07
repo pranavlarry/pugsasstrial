@@ -1,0 +1,53 @@
+.showmob{
+    display: none;
+}
+.carousel-indicators 
+{
+    position: relative;
+    li{
+        text-indent:0;
+        width:200px;
+        height: 40px;
+        background-color: transparent;
+        a{
+            color: black;
+            font-size:1.33rem;
+            text-decoration: none;
+        }
+        a:hover{
+            border-bottom: 4px solid #b42573;
+        }
+        
+    }
+    .active{
+        a{
+            font-weight: bold;
+            border-bottom: 4px solid #b42573;
+        }
+    }
+}
+
+
+article{
+    max-width: 290px;
+    h1 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .hidemob{
+        display: none;
+    }
+    .showmob{
+        width: 100%;
+        display: block;
+    }
+}
+    

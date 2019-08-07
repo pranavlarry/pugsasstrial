@@ -1,0 +1,11 @@
+extends ../../layouts/defaultLayout.pug
+
+block pageStyles
+    link(rel="stylesheet", href="stickynav.css")
+
+block pageTitle
+    title Sticky Nav Page
+
+block content
+    .content
+        include ../../components/stickynav/stickynav.pug

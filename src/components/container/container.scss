@@ -1,0 +1,38 @@
+.containers{
+    display: flex;
+    background-color: #0099e2;
+    &__article {
+        color: white;
+        padding-top:177px;
+        padding-left: 53px;
+        h2 {
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1.4rem;
+            line-height: 1.6;
+        }
+    }
+    .img{
+        height: inherit;
+        img{
+            max-width: 550px;
+        }
+        max-width: 550px;
+        &__article{
+            padding-bottom: 66px; 
+            width: 550px;
+            background-color: white;
+            color: black;
+            h2{
+                padding-left: 27px;
+                padding-top: 25px;
+                font-size: 1.5rem;
+            }
+            p{
+                padding-left: 27px;
+                font-size: 1.3rem;
+            }
+        }
+    }
+}

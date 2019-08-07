@@ -1,10 +1,11 @@
 /*!
  * import bootstrap 4
  */
-
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "../../components/stickynav/stickynav.scss";
+@import "../../components/nav/stickynav.scss";
 
-.forScroll {
-  height: 1000px;
+.content,html,body{
+  padding: 0;
+  width: 100%;
+  margin: 0;
 }

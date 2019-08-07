@@ -1,0 +1,12 @@
+extends ../../layouts/defaultLayout.pug
+
+block pageStyles
+    link(rel="stylesheet", href="article.css")
+
+block pageTitle
+    title Home Page
+
+block content
+    .content
+        include ../../components/article/article1.pug
+        include ../../components/article/article2.pug

@@ -1,23 +1,18 @@
-nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.sticky-top(itemscope)
-    a.navbar-brand(href='#') 
-        img.d-inline-block.align-top(src='https://image.flaticon.com/teams/slug/nikita-golubev.jpg', width='30', height='30', alt='', itemprop="logo", value="brand")
-    button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
-        span.navbar-toggler-icon
-    #navbarSupportedContent.collapse.navbar-collapse
-        ul.navbar-nav.mr-auto
-            li.nav-item.active
-                a.nav-link(href='#', itemprop="navitems")
-                    | Home 
-                    span.sr-only (current)
-            li.nav-item
-                a.nav-link(href='#',itemprop="navitems") About
-            li.nav-item.dropdown
-                a#navbarDropdown.nav-link.dropdown-toggle(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false',itemprop="navitemsDrop")
-                    | Services
-                .dropdown-menu(aria-labelledby='navbarDropdown')
-                    a.dropdown-item(href='#') Java
-                    a.dropdown-item(href='#') Java Script
-                    a.dropdown-item(href='#') React Js
-                    a.dropdown-item(href='#') PHP
-            li.nav-item
-                a.nav-link(href='#carouselExampleCaptions',itemprop="navitems") Portfolio
+.con.sticky-top
+  ul.nav.row
+    li.nav-item.col
+      a.nav-link.first(href='#')
+        .py-4
+          span.title LEARN
+          p.subtitle.d-none.d-sm-block  Based on your life stage
+    li.nav-item.col
+        a.nav-link.second(href='#')
+          .py-4
+            span.title PLAN
+            p.subtitle.d-none.d-sm-block  Using our calculators
+    li.nav-item.col
+      a.nav-link.third(href='#')
+        .py-4
+          span.title CHOOSE
+          p.subtitle.d-none.d-sm-block CollegeAmerica
+.test

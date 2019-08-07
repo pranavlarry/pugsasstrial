@@ -1,0 +1,36 @@
+.navbar{
+    height: 108px;
+}
+#navbarSupported{
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
+a {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+a:hover {
+    background-color: #009adf;
+    color: white;
+}
+
+.search{
+    position: absolute;
+    top: 10px;
+    right: 70px;
+    input {
+        border: 0;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        width: 200px;
+    }
+    &__btn{
+        width: 28px;
+        height: 28px;
+        &__img{
+            width: 28px;
+            height: 28px;
+        }
+    }
+}

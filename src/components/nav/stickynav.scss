@@ -1,0 +1,20 @@
+.navbar {
+    background-color: black;
+    height: 32px;
+    .left li{
+        width: 153px;
+        text-align: center;
+        border-left: 1px solid rgb(255, 255, 255);
+    }
+    a {
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    a:hover {
+        background-color: #009adf;
+    }
+    .login {
+        background-color: #009adf;
+    }
+}

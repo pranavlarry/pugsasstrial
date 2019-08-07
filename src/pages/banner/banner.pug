@@ -1,0 +1,11 @@
+extends ../../layouts/defaultLayout.pug
+
+block pageStyles
+    link(rel="stylesheet", href="banner.css")
+
+block pageTitle
+    title Home Page
+
+block content
+    .content
+        include ../../components/parallaxbanner/parallaxbanner.pug
