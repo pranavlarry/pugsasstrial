@@ -1,20 +1,27 @@
-//- extends ../../layouts/defaultLayout.pug
+extends ../../layouts/defaultLayout.pug
 
-//- block pageStyles
-//-     link(rel="stylesheet", href="homepage.css")
+block pageStyles
+    link(rel="stylesheet", href="homepage.css")
 
-//- block pageTitle
-//-     title Home Page
+block pageTitle
+    title Home Page
 
-//- block content
-//-     .content
-//-         include ../../components/parallaxbanner/parallaxbanner.pug
-//-         include ../../components/stickynav/stickynav.pug
-//-         include ../../components/accordion/accordion.pug
-//-         include ../../components/carousel/carousel.pug
-//-         include ../../components/modal/modal.pug
+block content
+    .content
+        include ../../components/nav/stickynav.pug
+        include ../../components/nav2/nav2.pug
+        include ../../components/breadcrumb/breadcrumb.pug
+        include ../../components/parallaxbanner/parallaxbanner.pug
+        include ../../components/stickynav/stickynav.pug
+        include ../../components/article/article1.pug
+        include ../../components/carousel/carousel.pug
+        include ../../components/container1/container1.pug
+        include ../../components/container/container.pug
+        include ../../components/article/article2.pug
+        include ../../components/footer/footer.pug
 
-//- block pageScripts
-//-     script(src="homepage.js")
+
+block pageScripts
+    script(src="homepage.js")
 
 

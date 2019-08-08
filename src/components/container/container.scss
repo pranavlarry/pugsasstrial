@@ -1,10 +1,10 @@
 .containers{
-    display: flex;
     background-color: #0099e2;
+    overflow-x: hidden;
     &__article {
         color: white;
         padding-top:177px;
-        padding-left: 53px;
+        padding-left: 166px;
         h2 {
             font-size: 2rem;
         }
@@ -16,12 +16,11 @@
     .img{
         height: inherit;
         img{
-            max-width: 550px;
+            max-width: auto;
         }
-        max-width: 550px;
+        max-width: 580px;
         &__article{
             padding-bottom: 66px; 
-            width: 550px;
             background-color: white;
             color: black;
             h2{
@@ -36,3 +35,23 @@
         }
     }
 }
+
+@media (max-width: 990px){
+    .containers{
+        &__article{
+            padding-top: 83px;
+            padding-left: 108px;
+            padding-right: 108px;
+        }
+        .img{
+            padding-left: 108px;
+            padding-right: 108px;
+            max-width:955px;
+            img{
+                width: auto;
+            }
+        }
+    }
+}
+
+
