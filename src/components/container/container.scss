@@ -3,8 +3,7 @@
     overflow-x: hidden;
     &__article {
         color: white;
-        padding-top:177px;
-        padding-left: 166px;
+        margin: auto;
         h2 {
             font-size: 2rem;
         }
@@ -14,9 +13,11 @@
         }
     }
     .img{
+        margin: auto;
+        margin-left: -20px;
         height: inherit;
         img{
-            max-width: auto;
+            width: 100%;
         }
         max-width: 580px;
         &__article{
@@ -39,16 +40,14 @@
 @media (max-width: 990px){
     .containers{
         &__article{
-            padding-top: 83px;
-            padding-left: 108px;
-            padding-right: 108px;
+            max-width: 860px;
+            padding: 10px 50px;
         }
         .img{
-            padding-left: 108px;
-            padding-right: 108px;
-            max-width:955px;
+            max-width:860px;
+            margin: auto;
             img{
-                width: auto;
+                width: 100%;
             }
         }
     }

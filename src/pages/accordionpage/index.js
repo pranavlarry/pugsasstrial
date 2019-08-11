@@ -1,6 +1,6 @@
-// import "bootstrap/js/src/index";
-// import $ from "jquery";
+import "bootstrap/js/src/index";
+import $ from "jquery";
 
-// $(function() {
-//   console.log("accordion page script fired!!!");
-// });
+$(function() {
+  console.log("accordion page script fired!!!");
+});

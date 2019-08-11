@@ -3,18 +3,6 @@
 //  */
 
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "../../components/article/article1.scss";
-@import "../../components/article/article2.scss";
-@import "../../components/parallaxbanner/parallaxbanner.scss";
-@import "../../components/breadcrumb/breadcrumb.scss";
-@import "../../components/carousel/carousel.scss";
-@import "../../components/container/container.scss";
-@import "../../components/container1/container1.scss";
-@import "../../components/footer/footer.scss";
-@import "../../components/nav2/nav2.scss";
-@import "../../components/stickynav/stickynav.scss";
-@import "../../components/nav/stickynav.scss";
-
 
 html,
 body,
@@ -25,6 +13,40 @@ body,
     width: 100%;
     height: 100%;
 }
+
+@media (min-width:768px){
+    .hideDesk{
+        display: none!important;
+    }
+    .showDesk{
+        display: block!important;
+    }
+}
+
+@media (max-width: 768px){
+    .hideMob{
+        display: none!important;
+    }
+    .showMob{
+        display: block!important;
+    }
+}
+
+@import "../../components/article/article1.scss";
+@import "../../components/article/article2.scss";
+@import "../../components/parallaxbanner/parallaxbanner.scss";
+@import "../../components/breadcrumb/breadcrumb.scss";
+@import "../../components/carousel/carousel.scss";
+@import "../../components/container/container.scss";
+@import "../../components/container1/container1.scss";
+@import "../../components/footer/footer.scss";
+@import "../../components/accordion/accordion.scss";
+@import "../../components/nav2/nav2.scss";
+@import "../../components/stickynav/stickynav.scss";
+@import "../../components/nav/stickynav.scss";
+
+
+
 
 // .content{
 //     height: 3000px; //to see parallax effect

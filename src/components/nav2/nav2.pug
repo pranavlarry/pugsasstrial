@@ -1,61 +1,55 @@
-nav.navbar.navbar-expand-lg.nav2
+.hideMob.showDesk
+    .row.nav1
+        .col-lg-4.col-md-4
+            ul
+                li
+                    a(href="") Other sites: Individual Investors 
+        .col-lg-7.left.col-md-7
+            ul
+                li
+                    a(href='#') Contact Us 
+                li
+                    a(href='#') Preference
+                li.login
+                    a(href='#') Login
+nav.navbar.navbar-expand-md.nav2
     a.navbar-brand(href='#') 
         img(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/logos/cg-af-primary-rgb-207x95.png', width='auto', height='95', alt='')   
-    form.search
-        input(type='search', placeholder='Enter a search term or tickel', aria-label='Search',style="font-style:italic; font-size:15px;")
-        //- button.search__btn(type='submit')
-        img.search__btn__img(src="https://www.americanfunds.com/apps/nextgen/docroot/images/new-assets/search.png", alt="search") 
-    #navbarSupported
+    button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarTogglerDemo01' aria-controls='navbarTogglerDemo01' aria-expanded='false' aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+    #navbarTogglerDemo01.collapse.navbar-collapse
+        .items
+            .nav1.showMob.hideDesk
+                .col-lg-4.col-md-4
+                    ul
+                        li
+                            a(href="") Other sites: Individual Investors 
+                .col-lg-7.left.col-md-7
+                    ul
+                        li
+                            a(href='#') Contact Us 
+                        li
+                            a(href='#') Preference
+                        li.login
+                            a(href='#') Login
+            form.search
+                input(type='search', placeholder='Enter a search term or tickel', aria-label='Search',style="font-style:italic; font-size:15px;")
+                //- button.search__btn(type='submit')
+                img.search__btn__img(src="https://www.americanfunds.com/apps/nextgen/docroot/images/new-assets/search.png", alt="search") 
+            ul.navbar-nav.mr-auto.mt-2.mt-lg-0
+                li.nav-item
+                    a.nav-link(href='#') MY ACCOUNTS 
+                li.nav-item
+                    a.nav-link(href='#') INVESTMENTS
+                li.nav-item
+                    a.nav-link(href='#') INSIGHTS
+                li.nav-item
+                    a.nav-link(href='#') PRODUCTS
+                li.nav-item
+                    a.nav-link(href='#') PLANNING
+                li.nav-item
+                    a.nav-link(href='#') SERVICES & SUPPORT
+                li.nav-item
+                    a.nav-link(href='#') FORMS
 
-        ul.nav.justify-content-end
-            li.nav-item.dropdown
-                a#navbarDropdown.nav-link(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
-                    | MY ACCOUNTS
-                .dropdown-menu(aria-labelledby='navbarDropdown')
-                    a.dropdown-item(href='#') Action
-                    a.dropdown-item(href='#') Another action
-                    .dropdown-divider
-                    a.dropdown-item(href='#') Something else here
-            li.nav-item.dropdown
-                a#navbarDropdown.nav-link(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
-                    | INVESTMENTS
-                .dropdown-menu(aria-labelledby='navbarDropdown')
-                    a.dropdown-item(href='#') Action
-                    a.dropdown-item(href='#') Another action
-                    .dropdown-divider
-                    a.dropdown-item(href='#') Something else here
-            li.nav-item.dropdown
-                a#navbarDropdown.nav-link(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
-                    | INSIGHTS
-                .dropdown-menu(aria-labelledby='navbarDropdown')
-                    a.dropdown-item(href='#') Action
-                    a.dropdown-item(href='#') Another action
-                    .dropdown-divider
-                    a.dropdown-item(href='#') Something else here
-            li.nav-item.dropdown
-                a#navbarDropdown.nav-link(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
-                    | PRODUCTS
-                .dropdown-menu(aria-labelledby='navbarDropdown')
-                    a.dropdown-item(href='#') Action
-                    a.dropdown-item(href='#') Another action
-                    .dropdown-divider
-                    a.dropdown-item(href='#') Something else here
-            li.nav-item.dropdown
-                a#navbarDropdown.nav-link(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
-                    | PLANNING
-                .dropdown-menu(aria-labelledby='navbarDropdown')
-                    a.dropdown-item(href='#') Action
-                    a.dropdown-item(href='#') Another action
-                    .dropdown-divider
-                    a.dropdown-item(href='#') Something else here
-            li.nav-item.dropdown
-                a#navbarDropdown.nav-link(href='#', role='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
-                    | SERVICES & SUPPORT
-                .dropdown-menu(aria-labelledby='navbarDropdown')
-                    a.dropdown-item(href='#') Action
-                    a.dropdown-item(href='#') Another action
-                    .dropdown-divider
-                    a.dropdown-item(href='#') Something else here
-            li.nav-item
-                a.nav-link(href='#') FORMS
 

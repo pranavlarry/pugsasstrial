@@ -3,16 +3,14 @@
     padding-bottom: 110px;
     padding-top: 110px;
     article{
+        max-width: 930px;
+        margin: auto;
         h1{
          font-size: 2.3rem;
-         padding-left: 280px;
-         padding-right: 280px;
         }
         p{
             font-size: 1.5rem;
-            padding-left: 170px;
             line-height: 1.7;
-            padding-right: 170px;
         }
         a{
             text-decoration: none;
@@ -24,4 +22,21 @@
         }
  
      }
+}
+
+@media (max-width: 1000px) {
+    .article2{
+            article{
+                h1{
+                    font-size: 1.6rem;
+                }
+                p{
+                    font-size: 1.2rem;
+                }
+                a{
+                    font-size: 1rem;
+                }
+            }
+        }
+
 }

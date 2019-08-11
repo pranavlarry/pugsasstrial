@@ -2,13 +2,15 @@ extends ../../layouts/defaultLayout.pug
 
 block pageStyles
     link(rel="stylesheet", href="homepage.css")
+block pageScripts
+    script(src="homepage.js")
 
 block pageTitle
     title Home Page
 
 block content
     .content
-        include ../../components/nav/stickynav.pug
+        //- include ../../components/nav/stickynav.pug
         include ../../components/nav2/nav2.pug
         include ../../components/breadcrumb/breadcrumb.pug
         include ../../components/parallaxbanner/parallaxbanner.pug
@@ -21,7 +23,6 @@ block content
         include ../../components/footer/footer.pug
 
 
-block pageScripts
-    script(src="homepage.js")
+
 
 

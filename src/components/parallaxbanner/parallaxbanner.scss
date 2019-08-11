@@ -24,9 +24,60 @@
         top: 10vw;
         left: 140px;
     }
-    @media (max-width: 750px){
-    
-    }
+
 }
+
+
+@media (max-width: 1050px){
+    .hero{
+        background-image: url("./mother-holding2.jpg");
+        min-height: 610px;
+        &__writing{
+            width: 83vw;
+            height: 20vw;
+            position: absolute;
+            top: 175px;
+            left: 74px;
+        }
+        h1{
+            font-size: 1.7rem;
+        }
+        p{
+            font-size: 1.2rem;
+            padding-right: 197px;
+        }
+        h2{
+            font-size: 1.8rem;
+        }
+    }
+    @media (max-width: 590px){
+        .hero{
+            background-image: url("./mother-holding3.jpg");
+            &__writing{
+                width: 75vw;
+                height: 270px;
+                text-align: center;
+                background-color: white;
+                opacity: .8;
+                margin-left: 13%;
+                padding-top: 40px;
+                left: 0px;
+            }
+            p{
+                padding: 0;
+                font-size: 1rem;
+            }
+            h1{
+                font-size: 1.5rem;
+            }
+            h2{
+                font-size: 1.5rem;
+            }
+        }
+    }
+    
+}
+
+
 
 

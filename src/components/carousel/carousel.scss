@@ -1,7 +1,7 @@
 .slide{
-    .showmob{
-        display: none;
-    }
+    // .showmob{
+    //     display: none;
+    // }
     .carousel-indicators 
     {
         position: relative;
@@ -40,15 +40,29 @@
             font-size: 1.6rem;
         }
     }
+    @media (max-width: 768px) {
+        // .hidemob{
+        //     display: none;
+        // }
+        &__list{
+            ul{
+                text-align: center;
+                li{
+                    h1{
+                        font-size: 1.7rem;
+                    }
+                    h3{
+                        font-size: 1.2rem;
+                    }
+                    padding-top: 60px;
+                    list-style: none;
+                }
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+        
 }
 
-// @media (max-width: 1000px) {
-//     .hidemob{
-//         display: none;
-//     }
-//     .showmob{
-//         width: 100%;
-//         display: block;
-//     }
-// }
-    
