@@ -1,47 +1,43 @@
 .nav3{
     background-color: white;
+    &__pad1{
+        padding-right: 0;
+    }
+    &__pad2{
+        padding: 0;
+    }
     &__first{ 
-        //height: auto;
         background: #00AEAA; 
+    }
+    &__second{ 
+        max-height: 135px;
+        background: #00294B; 
+    }
+    &__third{ 
+        max-height: 135px;
+        background: #0099E2;
     }
     &__first:hover{
         background:rgb(54, 138, 136);
     }
-    &__second{ 
-    max-height: 135px;
-    //height: auto;
-    background: #00294B; 
-    }
     &__second:hover{
         background: rgb(11, 28, 43);
-    }
-    &__third{ 
-    max-height: 135px;
-    //height: auto;
-    background: #0099E2;
     }
     &__third:hover{
         background: rgb(0, 130, 190);
     }
-    
-    .col {
-        padding: 0px 0px 0px 0px !important;
-    }
-    a{
-        font-family: Avenir Next LT W01 Demi,Arial,sans-serif;
-    }
-    
-    .title{
+    // a{
+    //     font-family: Avenir Next LT W01 Demi,Arial,sans-serif;
+    // }
+    span{
         font-size: 18px;
         font-weight: bold;
         color: #fff;
     }
-    
     .subtitle{
         font-size: 13px;
         color: #fff;
     }
-    
 }
 
 @media (min-width: 1160px) {
@@ -50,7 +46,6 @@
             padding-left: 135px;
             padding-right: 135px;
         }
-
     }
 }
 
@@ -60,6 +55,5 @@
             padding-left: 0;
             padding-right: 0;
         }
-
     }
 }

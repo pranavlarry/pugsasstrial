@@ -27,15 +27,25 @@
             }
             article{
                 color: rgb(51, 51, 51);
-                font-size: 1.2rem;
+                font-size: 1rem;
                 padding-left: 41px;
                 padding-bottom: 35px;
     
             }
+            @media (max-width:768px) {
+                ol{
+                    li{
+                        font-size: .8rem;
+                    }
+                }
+                article{
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    font-size: .9rem
+                }
+            }
 
         }
-        // padding-left: 217px;
-        // padding-right: 240px;
 
     }
     &__socialmedia{
@@ -50,17 +60,24 @@
                 display: flex;
                 li {
                     padding-right: 10px;
+                    font-size: .9rem;
                 }
             }
 
         }
+        // @media (max-width: 768px){
+        //     &__writing{
+        //         ul{
+        //             li:first-child{
+        //                 display: block;
+        //             }
+        //         }
+        //     }
+        // }
         
     }
     &__list{
         background-color: rgb(153, 153, 153);
-        // .showmob{
-        //     display: none;
-        // }
         &__writing{
             padding-top: 30px;
             max-width: 1000px;
@@ -85,17 +102,6 @@
                 }
             }
         }
-        // @media (max-width: 768px){
-        //     .hidemob{
-        //         display: none;
-
-        //     }
-        //     .showmob{
-        //         display: block;
-        //     }
-        // }
-
-        
     }
 
     &__copyright{
@@ -112,14 +118,23 @@
             ul {
                 li{
                     padding-right: 10px;
+                    font-size: .8rem;
                 }
             }
             &__first{
                 li{
+                    font-size: .7rem;
                     padding-bottom: 40px;
                     }
                 }
             }
+            @media (max-width: 768px){
+                &__writing{
+                    display: block;
+                    li{
+                        padding-bottom: 20px;
+                    }
+                }
+            }
         }
-
 }

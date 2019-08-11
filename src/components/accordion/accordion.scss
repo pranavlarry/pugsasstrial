@@ -18,17 +18,10 @@
     }
 
   }
-
-    button {
-        color: black; 
-    }
-
     .btn.btn-link{
         &::before {
           content: "\25BC ";
           font-weight: bolder;
-          
-      
         }
       }
 
@@ -37,6 +30,5 @@
             content: "\25BA ";
             font-weight: bolder;
           }
-        
-        }
+      }
 }

@@ -1,51 +1,55 @@
 .slide{
-    // .showmob{
-    //     display: none;
-    // }
-    .carousel-indicators 
-    {
-        position: relative;
-        li{
-            text-indent:0;
-            width:200px;
-            height: 40px;
-            background-color: transparent;
-            a{
-                color: black;
-                font-size:1.33rem;
-                text-decoration: none;
+    .showDesk{
+        .indicators{
+            ol{
+                margin-left: 2%;
+                margin-right: 0;
             }
-            a:hover{
-                border-bottom: 4px solid #b42573;
-            }
-            
         }
-        .active{
-            a{
-                font-weight: bold;
-                border-bottom: 4px solid #b42573;
+        .carousel-indicators 
+        {
+            position: relative;
+            li{
+                text-indent:0;
+                width:200px;
+                height: 40px;
+                background-color: transparent;
+                a{
+                    color: black;
+                    font-size:1.33rem;
+                    text-decoration: none;
+                }
+                a:hover{
+                    border-bottom: 4px solid #b42573;
+                }
+                
+            }
+            .active{
+                a{
+                    font-weight: bold;
+                    border-bottom: 4px solid #b42573;
+                }
+            }
+        }
+        
+        
+        article{
+            h1 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1.5rem;
+            }
+            h3 {
+                font-size: 1.6rem;
             }
         }
     }
-    
-    
-    article{
-        h1 {
-            font-size: 2rem;
-        }
-        p {
-            font-size: 1.5rem;
-        }
-        h3 {
-            font-size: 1.6rem;
-        }
-    }
+
     @media (max-width: 768px) {
-        // .hidemob{
-        //     display: none;
-        // }
         &__list{
             ul{
+                padding-left: 0;
                 text-align: center;
                 li{
                     h1{
