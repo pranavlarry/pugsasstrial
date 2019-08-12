@@ -1,0 +1,28 @@
+.socialmedia{
+    ul{
+        padding: 0;
+        position: absolute;
+        bottom: 170px;
+        left: 20px;
+        margin: 0;
+    }
+    li{
+        list-style-type: none;
+        img{
+            opacity: .7;
+        }
+    }
+    @media (max-width: 1088px){
+        ul{
+            bottom: 0;
+            left: 0;
+            li{
+                display: inline-block;
+            }
+            img{
+                width: 40px!important;
+                height: 40px!important;
+            }
+        }
+    }
+}

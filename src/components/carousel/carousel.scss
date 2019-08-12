@@ -1,5 +1,10 @@
 .slide{
-    .showDesk{
+
+        .carousel-inner{
+            padding-top: 55px;
+            max-width: 1100px;
+            margin: auto;
+        }
         .indicators{
             ol{
                 margin-left: 2%;
@@ -34,6 +39,7 @@
         
         
         article{
+            float: right;
             h1 {
                 font-size: 2rem;
             }
@@ -44,29 +50,23 @@
                 font-size: 1.6rem;
             }
         }
-    }
-
-    @media (max-width: 768px) {
-        &__list{
-            ul{
-                padding-left: 0;
+        @media (max-width: 768px) {
+            .carousel-item{
+                padding-top: 60px;
+                display: contents;
                 text-align: center;
-                li{
-                    h1{
-                        font-size: 1.7rem;
-                    }
-                    h3{
-                        font-size: 1.2rem;
-                    }
-                    padding-top: 60px;
-                    list-style: none;
+                h1{
+                    font-size: 1.5rem;
+                }
+                p{    
+                    font-size: 1rem;
+                }
+                h3{
+                    font-size: 1rem;
                 }
             }
-            img{
-                width: 100%;
-            }
         }
-    }
-        
 }
+
+
 

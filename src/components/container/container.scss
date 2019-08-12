@@ -4,9 +4,10 @@
     &__article {
         color: white;
         margin: auto;
+        margin-right: -115px;
         h2 {
             font-size: 2rem;
-            line-height: 3;
+            line-height: 2;
         }
         p{
             font-size: 1.4rem;
@@ -18,15 +19,19 @@
             font-weight: bolder;
         }
     }
-    .img{
+    .col-lg-5{
         margin: auto;
-        margin-left: -20px;
+    }
+    .img{
+        
+        // margin-left: -20px;
         height: inherit;
         img{
             width: 100%;
         }
         max-width: 580px;
         &__article{
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
             padding-bottom: 66px; 
             background-color: white;
             color: black;
@@ -48,6 +53,7 @@
     .containers{
         padding: 0px 10px 10px 10px;
         &__article{
+            margin-right: 0;
             max-width: 860px;
             padding: 50px 50px;
             h2{

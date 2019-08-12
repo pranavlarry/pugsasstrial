@@ -14,7 +14,7 @@ body,
     height: 100%;
 }
 
-@media (min-width:768px){
+@media (min-width:767px){
     .hideDesk{
         display: none!important;
     }
@@ -23,7 +23,7 @@ body,
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
     .hideMob{
         display: none!important;
     }
@@ -43,3 +43,4 @@ body,
 @import "../../components/accordion/accordion.scss";
 @import "../../components/nav2/nav2.scss";
 @import "../../components/stickynav/stickynav.scss";
+@import "../../components/socialmedia/socialmedia.scss";

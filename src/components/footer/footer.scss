@@ -57,23 +57,15 @@
             padding-bottom: 18px;
   
             ul {
-                display: flex;
+                padding: 0 0 0 31px;
                 li {
-                    padding-right: 10px;
+                    display: inline-block;
+                    padding-left: 10px;
                     font-size: .9rem;
                 }
             }
 
         }
-        // @media (max-width: 768px){
-        //     &__writing{
-        //         ul{
-        //             li:first-child{
-        //                 display: block;
-        //             }
-        //         }
-        //     }
-        // }
         
     }
     &__list{
@@ -113,7 +105,9 @@
             color: rgb(51, 51, 51);
             display: flex;
             &__privacy{
-                display: flex;
+                li{
+                    display: inline-block;
+                }
             }
             ul {
                 li{

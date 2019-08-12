@@ -24,6 +24,9 @@
         background-color: #009adf;
         color: white;
     }
+    ul{
+        padding-top: 20px;
+    }
     .search{
         input {
             border: 0;
@@ -40,6 +43,7 @@
         }
     }
     @media (max-width:767px){
+        height: fit-content;
         #navbarTogglerDemo01{
             .items{
                 margin: 0;
@@ -51,7 +55,9 @@
         }
     }
 
-    @media (max-width:1024px) and (min-width: 768px){
+    @media (max-width:1024px) and (min-width: 767px){
+ 
+        height: 135px;
         #navbarTogglerDemo01{
             ul{
                 width: 100%;
@@ -59,7 +65,7 @@
                 justify-content: space-around;
                 margin: 0;
                 left: 8px;
-                top: 87px;
+                top: 65%;
                 a{
                     font-size: .7rem;
                 }
@@ -73,12 +79,12 @@
 .nav1 {
     background-color: black;
     height: 32px;
-    .col-lg-4.col-md-4,.left,ul,li,a{
+    .col-md-4,.left,ul,li,a{
         height: inherit;
         margin: 0;
         padding: 0;
     }
-    .col-lg-4.col-md-4{
+    .col-md-4{
         a{
             padding: 10px 35px 10px 35px;
         }
@@ -94,9 +100,9 @@
         width: 153px;
         text-align: center;
         border-left: 1px solid rgb(255, 255, 255);
-            a{
-                padding: 10px 45px 10px 45px;
-            }
+            // a{
+            //     padding: 10px 45px 10px 45px;
+            // }
         }
     }
     a {
@@ -118,12 +124,12 @@
         }
     }
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
     .nav1{
         li{
             border: 1px solid white;
         }
-        .col-lg-4.col-md-4{
+        .col-md-4{
             text-align: center;
             padding: 0;
         }

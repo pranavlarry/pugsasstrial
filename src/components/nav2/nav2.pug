@@ -1,10 +1,10 @@
 .hideMob.showDesk
-    .row.nav1
-        .col-lg-4.col-md-4
+    .row.nav1(style="padding-right: 25px;")
+        .col-md-4
             ul
                 li( style="width: 265px;")
                     a(href="") Other sites: Individual Investors &#8964
-        .col-lg-7.left.col-md-7
+        .left.col-md-8
             ul
                 li
                     a(href='#') Contact Us 
@@ -12,15 +12,16 @@
                     a(href='#') Preference
                 li.login
                     a(href='#') Login
+//- https://www.americanfunds.com/content/dam/cgc/shared-content/images/logos/cg-af-primary-rgb-207x95.png
 nav.navbar.navbar-expand-md.nav2.navbar-light.bg-light
     a.navbar-brand(href='#') 
-        img(src='https://www.americanfunds.com/content/dam/cgc/shared-content/images/logos/cg-af-primary-rgb-207x95.png', width='auto', height='95', alt='')   
+        img(src='./logo.webp', width='auto', height='95', alt='')   
     button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarTogglerDemo01' aria-controls='navbarTogglerDemo01' aria-expanded='false' aria-label='Toggle navigation')
         span.navbar-toggler-icon
     #navbarTogglerDemo01.collapse.navbar-collapse
         .items
             .nav1.showMob.hideDesk
-                .col-lg-4.col-md-4
+                .col-md-4
                     ul
                         li
                             a(href="") Other sites: Individual Investors 
@@ -35,7 +36,7 @@ nav.navbar.navbar-expand-md.nav2.navbar-light.bg-light
             form.search
                 input(type='search', placeholder='Enter a search term or tickel', aria-label='Search',style="font-style:italic; font-size:15px;")
                 //- button.search__btn(type='submit')
-                img.search__btn__img(src="https://www.americanfunds.com/apps/nextgen/docroot/images/new-assets/search.png", alt="search") 
+                img.search__btn__img(src="./search.webp", alt="search") 
             ul.navbar-nav.mr-auto.mt-2.mt-lg-0
                 li.nav-item
                     a.nav-link(href='#') MY ACCOUNTS 

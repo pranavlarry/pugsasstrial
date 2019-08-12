@@ -19,12 +19,15 @@
     }
     &__first:hover{
         background:rgb(54, 138, 136);
+        border-bottom: 5px solid rgb(153, 153, 153); 
     }
     &__second:hover{
         background: rgb(11, 28, 43);
+        border-bottom: 5px solid rgb(153, 153, 153); 
     }
     &__third:hover{
         background: rgb(0, 130, 190);
+        border-bottom: 5px solid rgb(153, 153, 153); 
     }
     // a{
     //     font-family: Avenir Next LT W01 Demi,Arial,sans-serif;

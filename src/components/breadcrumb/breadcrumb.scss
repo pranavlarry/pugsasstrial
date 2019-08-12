@@ -1,8 +1,10 @@
 .breadcrumb {
     background-color: white;
-    padding-left: 200px;
-    ol{
-        max-width: 1025px;
-        margin: auto;
+    max-width: 1018px!important;
+    margin: auto!important;
+}
+@media (max-width:568px){
+    .breadcrumb{
+        display: none;
     }
 }
