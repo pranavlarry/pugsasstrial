@@ -1,5 +1,5 @@
 .hero {
-    background-image: url("./mother-holding.jpg");
+    background-image: url("./images/mother-holding.jpg");
     background-size: cover;
     position: relative;
     margin: {
@@ -30,7 +30,7 @@
 
 @media (max-width: 1050px){
     .hero{
-        background-image: url("./mother-holding2.jpg");
+        background-image: url("./images/mother-holding2.jpg");
         min-height: 610px;
         &__writing{
             width: 83vw;
@@ -52,7 +52,7 @@
     }
     @media (max-width: 590px){
         .hero{
-            background-image: url("./mother-holding3.jpg");
+            background-image: url("./images/mother-holding3.jpg");
             &__writing{
                 width: 75vw;
                 height: auto;

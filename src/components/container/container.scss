@@ -1,10 +1,8 @@
 .containers{
     background-color: #0099e2;
-    overflow-x: hidden;
     &__article {
         color: white;
         margin: auto;
-        margin-right: -115px;
         h2 {
             font-size: 2rem;
             line-height: 2;
@@ -23,27 +21,24 @@
         margin: auto;
     }
     .img{
-        
-        // margin-left: -20px;
-        height: inherit;
+        .content{
+            position: relative;
+            background-color: #fff;
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+        }
         img{
             width: 100%;
         }
         max-width: 580px;
-        &__article{
-            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
-            padding-bottom: 66px; 
-            background-color: white;
-            color: black;
-            h2{
-                padding-left: 27px;
-                padding-top: 25px;
-                font-size: 1.5rem;
-            }
-            p{
-                padding-left: 27px;
-                font-size: 1.3rem;
-            }
+        h2{
+            padding-top: 25px;
+            font-size: 1.5rem;
+        }
+        li{
+            border-top: 2px solid #f7f7f7;
+            list-style-type: none;
+            font-size: 1.3rem;
+            padding-bottom: 35px;
 
         }
     }

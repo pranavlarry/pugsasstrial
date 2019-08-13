@@ -1,4 +1,17 @@
 .nav2{
+    // .dropdowns{
+    //     display: none;
+    // }
+    // .dropdown1__btn:hover,
+    // .dropdown6__btn:hover,
+    // .dropdown2__btn:hover,
+    // .dropdown3__btn:hover,
+    // .dropdown4__btn:hover,
+    // .dropdown5__btn:hover{
+    //     .dropdowns{
+    //         display: block;
+    //     }
+    // }
     button{
         margin-right: 15px;
     }
@@ -59,15 +72,17 @@
  
         height: 135px;
         #navbarTogglerDemo01{
-            ul{
-                width: 100%;
-                position: absolute;
-                justify-content: space-around;
-                margin: 0;
-                left: 8px;
-                top: 65%;
-                a{
-                    font-size: .7rem;
+            .items{
+                &__ul{
+                    width: 100%;
+                    position: absolute;
+                    justify-content: space-around;
+                    margin: 0;
+                    left: 8px;
+                    top: 65%;
+                    a{
+                        font-size: .7rem;
+                    }
                 }
             }
         }
@@ -79,6 +94,8 @@
 .nav1 {
     background-color: black;
     height: 32px;
+    width: 100%;
+    margin: 0;
     .col-md-4,.left,ul,li,a{
         height: inherit;
         margin: 0;
@@ -97,12 +114,9 @@
 
         background-color: black;
         li{
-        width: 153px;
-        text-align: center;
-        border-left: 1px solid rgb(255, 255, 255);
-            // a{
-            //     padding: 10px 45px 10px 45px;
-            // }
+            width: 153px;
+            text-align: center;
+            border-left: 1px solid rgb(255, 255, 255);
         }
     }
     a {

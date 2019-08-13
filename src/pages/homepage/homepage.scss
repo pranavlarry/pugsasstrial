@@ -32,15 +32,16 @@ body,
     }
 }
 
-@import "../../components/article/article1.scss";
-@import "../../components/article/article2.scss";
-@import "../../components/parallaxbanner/parallaxbanner.scss";
+@import "../../components/nav2/nav2.scss";
+// @import "../../components/dropdowns/dropdown1.scss";
 @import "../../components/breadcrumb/breadcrumb.scss";
+@import "../../components/parallaxbanner/parallaxbanner.scss";
+@import "../../components/stickynav/stickynav.scss";
+@import "../../components/article/article1.scss";
 @import "../../components/carousel/carousel.scss";
-@import "../../components/container/container.scss";
 @import "../../components/container1/container1.scss";
+@import "../../components/container/container.scss";
+@import "../../components/article/article2.scss";
 @import "../../components/footer/footer.scss";
 @import "../../components/accordion/accordion.scss";
-@import "../../components/nav2/nav2.scss";
-@import "../../components/stickynav/stickynav.scss";
 @import "../../components/socialmedia/socialmedia.scss";
