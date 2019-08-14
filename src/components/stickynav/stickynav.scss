@@ -29,34 +29,29 @@
         background: rgb(0, 130, 190);
         border-bottom: 5px solid rgb(153, 153, 153); 
     }
-    // a{
-    //     font-family: Avenir Next LT W01 Demi,Arial,sans-serif;
-    // }
-    span{
+    &__span{
         font-size: 18px;
         font-weight: bold;
         color: #fff;
     }
-    .subtitle{
+    &__sub{
         font-size: 13px;
         color: #fff;
     }
-}
 
-@media (min-width: 1160px) {
-    .nav3{
-        ul{
+    @media (min-width: 1160px) {
+        &__list{
             padding-left: 135px;
             padding-right: 135px;
         }
     }
-}
-
-@media (max-width: 1159px) {
-    .nav3{
-        ul{
+    
+    @media (max-width: 1159px) {
+        &__list{
             padding-left: 0;
             padding-right: 0;
         }
     }
 }
+
+

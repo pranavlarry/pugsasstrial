@@ -1,96 +1,96 @@
 #accordionExample.accordion(itemscope)
-    .card
-        #headingOne.card-header
+    .card.accordion__card
+        #headingOne.card-header.accordion__cardheader
             h2.mb-0
-                button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
+                button.btn.btn-link.collapsed.accordion__btn(type='button', data-toggle='collapse', data-target='#collapseOne', aria-expanded='true', aria-controls='collapseOne')
                     |  MY ACCOUNTS
-        #collapseOne.collapse(aria-labelledby='headingOne', data-parent='#accordionExample')
-                ul
+        #collapseOne.collapse.accordion__content(aria-labelledby='headingOne', data-parent='#accordionExample')
+                ul.accordion__list
                     li
-                        a(href="")  View Portfolio
+                        a.accordion__a(href="")  View Portfolio
                     li
-                        a(href="") Portfolio Value History
+                        a.accordion__a(href="") Portfolio Value History
                     li
-                        a(href="") Statements & Tax Forms
+                        a.accordion__a(href="") Statements & Tax Forms
                     li
-                        a(href="") Sign Up for Paperless Delivery of Documents
-    .card
-        #headingTwo.card-header
+                        a.accordion__a(href="") Sign Up for Paperless Delivery of Documents
+    .card.accordion__card
+        #headingTwo.card-header.accordion__cardheader
             h2.mb-0
-                button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
+                button.btn.btn-link.collapsed.accordion__btn(type='button', data-toggle='collapse', data-target='#collapseTwo', aria-expanded='false', aria-controls='collapseTwo')
                     | INVESTMENTS
-        #collapseTwo.collapse(aria-labelledby='headingTwo', data-parent='#accordionExample')
-                ul
+        #collapseTwo.collapse.accordion__content(aria-labelledby='headingTwo', data-parent='#accordionExample')
+                ul.accordion__list
                     li
-                        a(href="") All American Funds
+                        a.accordion__a(href="") All American Funds
                     li
-                        a(href="") Compare Funds
+                        a.accordion__a(href="") Compare Funds
                     li
-                        a(href="") Prospectuses & Annual Reports
-    .card
-        #headingThree.card-header
+                        a.accordion__a(href="") Prospectuses & Annual Reports
+    .card.accordion__card
+        #headingThree.card-header.accordion__cardheader
             h2.mb-0
-                button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
+                button.btn.btn-link.collapsed.accordion__btn(type='button', data-toggle='collapse', data-target='#collapseThree', aria-expanded='false', aria-controls='collapseThree')
                     | INSIGHTS
-        #collapseThree.collapse(aria-labelledby='headingThree', data-parent='#accordionExample')
-                ul
+        #collapseThree.collapse.accordion__content(aria-labelledby='headingThree', data-parent='#accordionExample')
+                ul.accordion__list
                     li
-                        a(href="") Investment Insights
-    .card
-        #headingThree.card-header
+                        a.accordion__a(href="") Investment Insights
+    .card.accordion__card
+        #headingThree.card-header.accordion__cardheader
             h2.mb-0
-                button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseFour', aria-expanded='false', aria-controls='collapseFour')
+                button.btn.btn-link.collapsed.accordion__btn(type='button', data-toggle='collapse', data-target='#collapseFour', aria-expanded='false', aria-controls='collapseFour')
                     | PRODUCTS
-        #collapseFour.collapse(aria-labelledby='headingFour', data-parent='#accordionExample')
-            ul
+        #collapseFour.collapse.accordion__content(aria-labelledby='headingFour', data-parent='#accordionExample')
+            ul.accordion__list
                 li
-                    a(href="") Traditional and Roth IRAs
+                    a.accordion__a(href="") Traditional and Roth IRAs
                 li
-                    a(href="") SIMPLE IRAs
+                    a.accordion__a(href="") SIMPLE IRAs
                 li
-                    a(href="") 401(k) Plans
+                    a.accordion__a(href="") 401(k) Plans
                 li
-                    a(href="") CollegeAmerica® 529 Plans
+                    a.accordion__a(href="") CollegeAmerica® 529 Plans
                 li
-                    a(href="") Portfolio Series
-    .card
-        #headingTwo.card-header
+                    a.accordion__a(href="") Portfolio Series
+    .card.accordion__card
+        #headingTwo.card-header.accordion__cardheader
             h2.mb-0
-                button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseFive', aria-expanded='false', aria-controls='collapseFive')
+                button.btn.btn-link.collapsed.accordion__btn(type='button', data-toggle='collapse', data-target='#collapseFive', aria-expanded='false', aria-controls='collapseFive')
                     | PLANNING
-        #collapseFive.collapse(aria-labelledby='headingFive', data-parent='#accordionExample')
-                ul
+        #collapseFive.collapse.accordion__content(aria-labelledby='headingFive', data-parent='#accordionExample')
+                ul.accordion__list
                     li
-                        a(href="") Tools & Calculators
+                        a.accordion__a(href="") Tools & Calculators
                     li
-                        a(href="") Investing Fundamentals
+                        a.accordion__a(href="") Investing Fundamentals
                     li
-                        a(href="") Mutual Fund Basics
+                        a.accordion__a(href="") Mutual Fund Basics
                     li
-                        a(href="") Creating a Financial Plan
+                        a.accordion__a(href="") Creating a Financial Plan
                     li
-                        a(href="") Retirement Planning
+                        a.accordion__a(href="") Retirement Planning
                     li
-                        a(href="") College Savings
+                        a.accordion__a(href="") College Savings
                     li
-                        a(href="") Market Fluctuations
-    .card
-        #headingThree.card-header
+                        a.accordion__a(href="") Market Fluctuations
+    .card.accordion__card
+        #headingThree.card-header.accordion__cardheader
             h2.mb-0
-                button.btn.btn-link.collapsed(type='button', data-toggle='collapse', data-target='#collapseSix', aria-expanded='false', aria-controls='collapseSix')
+                button.btn.btn-link.collapsed.accordion__btn(type='button', data-toggle='collapse', data-target='#collapseSix', aria-expanded='false', aria-controls='collapseSix')
                     | SERVICE & SUPPORT
-        #collapseSix.collapse(aria-labelledby='headingSix', data-parent='#accordionExample')
-                ul
+        #collapseSix.collapse.accordion__content(aria-labelledby='headingSix', data-parent='#accordionExample')
+                ul.accordion__list
                     li    
-                        a(href="") Forms
+                        a.accordion__a(href="") Forms
                     li
-                        a(href="") Tax Center
+                        a.accordion__a(href="") Tax Center
                     li
-                        a(href="") How to Use Your Account
+                        a.accordion__a(href="") How to Use Your Account
                     li
-                        a(href="") Changing Your Preferences
+                        a.accordion__a(href="") Changing Your Preferences
                     li
-                        a(href="") Contact Us
+                        a.accordion__a(href="") Contact Us
             
 
                 

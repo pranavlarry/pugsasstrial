@@ -1,22 +1,19 @@
-.fcontainer.row
+.fcontainer.row(id="plan")
     .fcontainer__content.col-lg-5
-        article
+        article.fcontainer__article
             span PLAN
-            br
-            h2 Your savings plan: Start now.
-            br
-            p You can do this. We make it simple to figure out what, when and how much to save.
-            br
-            h3 Let’s do the math.
-            br
-        .fcontainer__content__cal.row
+            h2(itemprop="savings plan") Your savings plan: Start now.
+            p.fcontainer__para(itemprop="calculate savings") You can do this. We make it simple to figure out what, when and how much to save.
+            h3.fcontainer__subheading(itemprop="calculate savings") Let’s do the math.
+        .fcontainer__cal.row
             .fcontainer__content__cal__first.col-6
-                img(src="./images/calculator.png", alt="Calculator image")
-                p I want to see how much my savings can grow over time.
+                img(src="../images/calculator.png", alt="Calculator image")
+                p.fcontainer__calp(itemprop="calculate savings") I want to see how much my savings can grow over time.
                 a(href="#") Go to savings calculator &#8594
             .fcontainer__content__cal__second.col-6
-                img(src="./images/calculator.png", alt="Calculator image")
-                p I want to compare college costs and create a savings plan.
+                img(src="../images/calculator.png", alt="Calculator image")
+                p.fcontainer__calp(itemprop="calculate savings") I want to compare college costs and create a savings plan.
                 a(href="#") Go to savings calculator &#8594
-    .fcontainer__img.col-lg-5
-        img(src="./images/father.png", alt="Father child image")
+    .col-lg-5
+        img.fcontainer__img(src="../images/father.png", alt="Father child image")
+    

@@ -1,32 +1,32 @@
 .socialmedia{
-    ul{
+    &__list{
         padding: 0;
         position: absolute;
         bottom: 170px;
         left: 20px;
         margin: 0;
     }
-    li{
+    &__item{
         list-style-type: none;
         width: 30px;
         height: 30px;
-        img{
-            opacity: .7;
-        }
+    }
+    &__icon{
+        opacity: .7;
     }
     @media (max-width: 1088px){
-        ul{
+        &__list{
             bottom: 0;
             left: 0;
-            li{
-                display: inline-block;
-                width: 40px;
-                height: 40px;
-            }
-            img{
-                width: 40px!important;
-                height: 40px!important;
-            }
+        }
+        &__item{
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+        }
+        &__icon{
+            width: 40px!important;
+            height: 40px!important;
         }
     }
 }

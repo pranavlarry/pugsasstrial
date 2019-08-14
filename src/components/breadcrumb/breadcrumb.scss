@@ -2,9 +2,14 @@
     background-color: white;
     max-width: 1018px!important;
     margin: auto!important;
-}
-@media (max-width:568px){
-    .breadcrumb{
+    &__item{
+        font-size: .85rem;
+    }
+    &__a{
+        color: rgb(29, 87, 153);
+    }
+    @media (max-width:568px){
         display: none;
     }
 }
+

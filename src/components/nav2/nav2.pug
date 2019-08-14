@@ -1,68 +1,48 @@
 .hideMob.showDesk
-    .row.nav1(style="padding-right: 25px;")
-        .col-md-4
-            ul
-                li( style="width: 265px;")
-                    a(href="#") Other sites: Individual Investors &#8964
-        .left.col-md-8
-            ul
-                li
-                    a(href='#') Contact Us 
-                li
-                    a(href='#') Preference
-                li.login
-                    a(href='#') Login
-nav.navbar.navbar-expand-md.nav2.navbar-light.bg-light
+    include ../../components/nav/stickynav.pug
+nav.navbar.navbar-expand-md.nav2.navbar-light.bg-light(itemscope)
     a.navbar-brand(href='#') 
-        img(src='./images/logo.webp', width='auto', height='95', alt='Capital Group Image')   
-    button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarTogglerDemo01' aria-controls='navbarTogglerDemo01' aria-expanded='false' aria-label='Toggle navigation')
+        img.nav2__logo(src='../images/logo.webp', width='auto', height='95', alt='Capital Group Image',itemprop="Brand",value="Capital group")   
+    button.nav2__hamIcon.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarTogglerDemo01' aria-controls='navbarTogglerDemo01' aria-expanded='false' aria-label='Toggle navigation')
         span.navbar-toggler-icon
-    #navbarTogglerDemo01.collapse.navbar-collapse
-        .items
-            .nav1.showMob.hideDesk
-                .col-md-4
-                    ul.items__ul
-                        li
-                            a(href="") Other sites: Individual Investors 
-                .col-lg-7.left.col-md-7
-                    ul.items__ul
-                        li
-                            a(href='#') Contact Us 
-                        li
-                            a(href='#') Preference
-                        li.login
-                            a(href='#') Login
-            form.search
-                input(type='search', placeholder='Enter a search term or tickel', aria-label='Search',style="font-style:italic; font-size:15px;")
+    #navbarTogglerDemo01.collapse.navbar-collapse.nav2__body
+        .nav2__items
+            .showMob.hideDesk
+                .row.nav1
+                    include ../../components/nav/stickynav.pug
+            form.nav2__search
+                input.nav2__searchInput(type='search', placeholder='Enter a search term or tickel', aria-label='Search',style="font-style:italic; font-size:15px;")
                 //- button.search__btn(type='submit')
-                img.search__btn__img(src="./images/search.webp", alt="search") 
-            ul.navbar-nav.mr-auto.mt-2.mt-lg-0.items__ul
-                li.nav-item.dropdown1__btn
-                    a.nav-link(href='#') MY ACCOUNTS 
+                img.nav2__searchBtn(src="../images/search.webp", alt="search",style=" position: relative;top: 8px;") 
+            ul.navbar-nav.mr-auto.mt-2.mt-lg-0.items__ul.nav2__ul
+                li.nav-item.dropdown1__btn.nav2__linkList
+                    a.nav2__link.nav-link(href='#') MY ACCOUNTS 
                     //- .hideMob.dropdowns
                     //-     include ../../components/dropdowns/dropdown1.pug
-                li.nav-item.dropdown2__btn
-                    a.nav-link(href='#') INVESTMENTS
+                li.nav-item.dropdown2__btn.nav2__linkList
+                    a.nav2__link.nav-link(href='#') INVESTMENTS
                     //- .hideMob.dropdowns
                     //-     include ../../components/dropdowns/dropdown2.pug
-                li.nav-item.dropdown3__btn
-                    a.nav-link(href='#') INSIGHTS
+                li.nav-item.dropdown3__btn.nav2__linkList
+                    a.nav2__link.nav-link(href='#') INSIGHTS
                     //- .hideMob.dropdowns
                     //-     include ../../components/dropdowns/dropdown3.pug
-                li.nav-item.dropdown4__btn
-                    a.nav-link(href='#') PRODUCTS
+                li.nav-item.dropdown4__btn.nav2__linkList
+                    a.nav2__link.nav-link(href='#') PRODUCTS
                     //- .hideMob.dropdowns
                     //-     include ../../components/dropdowns/dropdown4.pug
-                li.nav-item.dropdown5__btn
-                    a.nav-link(href='#') PLANNING
+                li.nav-item.dropdown5__btn.nav2__linkList
+                    a.nav2__link.nav-link(href='#') PLANNING
                     //- .hideMob.dropdowns
                     //-     include ../../components/dropdowns/dropdown5.pug
-                li.nav-item.dropdown6__btn
-                    a.nav-link(href='#') SERVICES & SUPPORT
+                li.nav-item.dropdown6__btn.nav2__linkList
+                    a.nav2__link.nav-link(href='#') SERVICES & SUPPORT
                     //- .hideMob.dropdowns
                     //-     include ../../components/dropdowns/dropdown6.pug
-                li.nav-item
-                    a.nav-link(href='#') FORMS
+                li.nav-item.nav2__linkList
+                    a.nav2__link.nav-link(href='#') FORMS
+
+
 
 
 

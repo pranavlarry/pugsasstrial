@@ -1,34 +1,31 @@
 .slide{
 
-        .carousel-inner{
+        &__inner{
             padding-top: 55px;
             max-width: 1100px;
             margin: auto;
         }
-        .indicators{
-            ol{
-                margin-left: 2%;
-                margin-right: 0;
-            }
+        &__indicators{
+            margin-left: 2%;
+            margin-right: 0;
+            position: relative;
+        }
+        &__indicatorsli{
+            text-indent:0!important;
+            width:200px!important;
+            height: 40px;
+            background-color: transparent;
+        }
+        &__indicatorsa{
+            color: black!important;
+            font-size:1.33rem;
+            text-decoration: none!important;
+        }
+        &__indicatorsa:hover{
+            border-bottom: 4px solid #b42573;
         }
         .carousel-indicators 
         {
-            position: relative;
-            li{
-                text-indent:0;
-                width:200px;
-                height: 40px;
-                background-color: transparent;
-                a{
-                    color: black;
-                    font-size:1.33rem;
-                    text-decoration: none;
-                }
-                a:hover{
-                    border-bottom: 4px solid #b42573;
-                }
-                
-            }
             .active{
                 a{
                     font-weight: bold;
@@ -37,36 +34,35 @@
             }
         }
         
-        
-        article{
+        &__article{
             float: right;
-            h1 {
-                font-size: 2rem;
-            }
-            p {
-                font-size: 1.5rem;
-            }
-            h3 {
-                font-size: 1.6rem;
-            }
+        }
+        &__heading{
+            font-size: 2rem;
+        }
+        &__para{
+            font-size: 1.5rem;
+        }
+        &__subhead{
+            font-size: 1.6rem;
         }
         @media (max-width: 767px) {
-            .carousel-item{
+            &__item{
                 padding-top: 60px;
-                display: contents;
                 text-align: center;
-                h1{
-                    font-size: 1.5rem;
-                }
-                p{    
-                    font-size: 1rem;
-                }
-                h3{
-                    font-size: 1rem;
-                }
+            }
+            &__heading{
+                font-size: 1.5rem;
+            }
+            &__para,&__subhead{    
+                font-size: 1rem;
+            }
+            .carousel-item{
+                display: contents;
             }
         }
 }
+
 
 
 

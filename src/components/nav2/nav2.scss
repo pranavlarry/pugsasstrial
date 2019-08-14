@@ -12,148 +12,67 @@
     //         display: block;
     //     }
     // }
-    button{
+    &__hamIcon{
         margin-right: 15px;
     }
-    .navbar-brand{
-        img{
-            padding-left: 15px;
-        }
+    &__logo{
+        padding-left: 15px;
     }
-    .items{
+    &__items{
         margin-right: 30px;
     }
     padding: 0;
-    #navbarTogglerDemo01{
+    &__body{
         text-align: end;
         justify-content: flex-end;    
     }
-    a {
+    &__link {
         color: black;
         font-weight: bold;
         font-size: 14px;
     }
-    li:hover {
+    &__linkList:hover {
         background-color: #009adf;
         color: white;
     }
-    ul{
+    &__ul{
         padding-top: 20px;
     }
-    .search{
-        input {
-            border: 0;
-            border-bottom: 1px solid rgb(0, 0, 0);
-            width: 200px;
-        }
-        &__btn{
-            width: 28px;
-            height: 28px;
-            &__img{
-                width: 28px;
-                height: 28px;
-            }
-        }
+    &__searchInput {
+        border: 0;
+        border-bottom: 1px solid rgb(0, 0, 0);
+        width: 200px;
+    }
+    &__searchBtn{
+        width: 28px;
+        height: 28px;
     }
     @media (max-width:767px){
         height: fit-content;
-        #navbarTogglerDemo01{
-            .items{
-                margin: 0;
-            }
+        &__items{
+            margin: 0;
             text-align: center;
-            .search{
-                padding-top: 60px;
-            }    
         }
+
+        &__search{
+            padding-top: 60px;
+        } 
     }
 
-    @media (max-width:1024px) and (min-width: 767px){
- 
+    @media (max-width:1024px) and (min-width: 768px){
         height: 135px;
-        #navbarTogglerDemo01{
-            .items{
-                &__ul{
-                    width: 100%;
-                    position: absolute;
-                    justify-content: space-around;
-                    margin: 0;
-                    left: 8px;
-                    top: 65%;
-                    a{
-                        font-size: .7rem;
-                    }
-                }
-            }
+        &__ul{
+            width: 100%;
+            position: absolute;
+            justify-content: space-around;
+            margin: 0;
+            left: 8px;
+            top: 65%;
         }
-    }
-
-
-}
-
-.nav1 {
-    background-color: black;
-    height: 32px;
-    width: 100%;
-    margin: 0;
-    .col-md-4,.left,ul,li,a{
-        height: inherit;
-        margin: 0;
-        padding: 0;
-    }
-    .col-md-4{
-        a{
-            padding: 10px 35px 10px 35px;
-        }
-    }
-    .left {
-        ul{
-            display:flex;
-            justify-content: flex-end;
-        }
-
-        background-color: black;
-        li{
-            width: 153px;
-            text-align: center;
-            border-left: 1px solid rgb(255, 255, 255);
-        }
-    }
-    a {
-        color: white;
-        font-size: 12px;
-        font-weight: 500;
-    }
-    li:hover {
-        background-color: #009adf;
-    }
-    .login {
-        border-right: 1px solid white;
-        background-color: #009adf;
-    }
-    li{
-        list-style: none;
-        a{
-            text-decoration: none;
+        &__link{
+            font-size: .7rem;
         }
     }
 }
-@media (max-width: 767px){
-    .nav1{
-        li{
-            border: 1px solid white;
-        }
-        .col-md-4{
-            text-align: center;
-            padding: 0;
-        }
-        .left{
-            ul{
-                justify-content: center;
-                li{
-                    width: 34%;
-                }
-            }
-        }
-    }
-}
+
+@import "../../components/nav/stickynav.scss"
