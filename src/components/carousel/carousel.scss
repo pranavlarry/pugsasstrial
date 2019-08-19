@@ -46,6 +46,11 @@
         &__subhead{
             font-size: 1.6rem;
         }
+        &__link{
+            font-size: 19px;
+            font-weight: bold;
+            text-decoration: none!important;
+        }
         @media (max-width: 767px) {
             &__item{
                 padding-top: 60px;

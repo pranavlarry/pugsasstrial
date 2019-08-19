@@ -1,7 +1,7 @@
 .fcontainer.row(id="plan")
     .fcontainer__content.col-lg-5
         article.fcontainer__article
-            span PLAN
+            span(style="font-weight:bold;color: #7f7f7f;") PLAN
             h2(itemprop="savings plan") Your savings plan: Start now.
             p.fcontainer__para(itemprop="calculate savings") You can do this. We make it simple to figure out what, when and how much to save.
             h3.fcontainer__subheading(itemprop="calculate savings") Let’s do the math.
@@ -9,11 +9,11 @@
             .fcontainer__content__cal__first.col-6
                 img(src="../images/calculator.png", alt="Calculator image")
                 p.fcontainer__calp(itemprop="calculate savings") I want to see how much my savings can grow over time.
-                a(href="#") Go to savings calculator &#8594
-            .fcontainer__content__cal__second.col-6
+                a.fcontainer__link(href="#",) Go to savings calculator &#8594
+            .fcontainer__content__cal__second.col-6(style="border-left: 1px solid #e5e5e5;")
                 img(src="../images/calculator.png", alt="Calculator image")
                 p.fcontainer__calp(itemprop="calculate savings") I want to compare college costs and create a savings plan.
-                a(href="#") Go to savings calculator &#8594
+                a.fcontainer__link(href="#") Go to savings calculator &#8594
     .col-lg-5
         img.fcontainer__img(src="../images/father.png", alt="Father child image")
     

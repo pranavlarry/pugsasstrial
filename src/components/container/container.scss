@@ -14,9 +14,10 @@
         line-height: 1.6;
     }
     &__a{
-        color: #fff;
+        color: #fff!important;
         font-size: 1.2rem;
         font-weight: bolder;
+        text-decoration: none!important;
     }
     &__content{
         position: relative;

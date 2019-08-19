@@ -5,6 +5,8 @@
         position: relative;
         left: 106px;
         top: 60px;
+        padding-left: 80px;
+        padding-right: 21px;
     }
     &__subheading{
         font-size: 22px!important;
@@ -18,7 +20,18 @@
     &__article{
         line-height: 2;
     }
+    &__link{
+        font-weight:bold;
+        font-size: 19px;
+        text-decoration: none!important;
+    }
+    &__img{
+        padding-left: 70px;
+    }
     @media (max-width: 1200px){
+        &__content{
+            padding-left: 10px;
+        }
         &__img{
             max-width: 455px; 
             padding-top: 175px;

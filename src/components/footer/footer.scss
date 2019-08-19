@@ -5,7 +5,7 @@
         font-weight: bold;
     }    
     &__link{
-        text-decoration: none;
+        color: #1d5799;
     }
     // ul{
     //     list-style-type: none;
@@ -26,8 +26,7 @@
     &__article{
         color: rgb(51, 51, 51);
         font-size: 1rem;
-        padding-left: 41px;
-        padding-bottom: 35px;
+        padding:0 20px 35px 41px;
 
     }
     &__writing{
@@ -68,98 +67,84 @@
             font-size: .9rem;
             padding-right: 10px;
     }
+    &__bitem{
+        font-weight: bold;
+        color: rgb(102, 102, 102);
+    }
+    &__link{
+        font-weight: bold;
+        color: #1d5799;
+    }
     
 }
 
-.fcopy{
-    background-color: rgb(229, 229, 229);
-    &__link{
-        color: rgb(29, 87, 153);
-    }
-    &__privacy{
-        padding-bottom: 30px;
-    }
-    &__pitem{
-        display: inline-block;
-    }
-    &__writing{
+.footerCopy {
+    background: #e5e5e5;
+    padding-top: 26px;
+    padding-bottom: 10px;
 
+    &__content{
         max-width: 1000px;
         margin: auto;
-        padding-top: 33px;
-        color: rgb(51, 51, 51);
-        display: flex;
-        }
-        &__link{
-            padding-right: 10px;
-            padding-left: 10px;
-            font-size: .8rem;
-        }
-        &__fitem {
-            font-size: .7rem;
-            padding-bottom: 40px;
-        }
-        @media (max-width: 768px){
-            &__writing{
-                display: block;
-            }
-            &__link{
-                padding-bottom: 20px;
-            }
-        }
+    }
+    &__item{
+        font-size: 12px;
+        color: rgb(102, 102, 102);
         
     }
-
-    .legalfooter {
-        background: #e5e5e5;
-        padding-top: 26px;
-        padding-bottom: 10px;
-        .col-md-6 {
-          padding-left: 0px !important;
-          padding-right: 0px !important;
-        }
-        p {
-          font-family: AvenirNextLTW01-Regular, Arial;
-          font-size: 12px;
-          margin-bottom: 40px;
-          font-family: "Avenir Next LT W01 Demi", Arial, sans-serif;
-          color: #666666;
-        }
-        a {
-          font-family: "Avenir Next LT W01 Demi", Arial, sans-serif;
-          font-size: 12px;
-          color: #1d5799;
-          padding-left: 6px;
-          padding-right: 6px;
-          display: inline !important;
-          padding-left: 0px !important;
-        }
-      
-        .container80percent {
-          width: 80%;
-          padding-right: 15px;
-          padding-left: 15px;
-          margin-right: auto;
-          margin-left: auto;
-        }
-      
-        @media (max-width: 1000px) {
-          .container80percent {
-            padding-left: 40px !important;
-            padding-right: 40px !important;
-            width: 100% !important;
-          }
-        }
-      }
-      
-      @media (max-width: 770px) {
-        .legalfooter {
-          p {
-            margin-top: 13px !important;
-            margin-bottom: 0px !important;
-          }
-        }
-      }
+    &__link{
+        color: #1d5799;
+        font-weight: bold;
+    }
+    &__link--weight-bold{
+        font-size: 10px;
+    }
+    // .col-md-6 {
+    //     padding-left: 0px !important;
+    //     padding-right: 0px !important;
+    // }
+    // p {
+    //     font-family: AvenirNextLTW01-Regular, Arial;
+    //     font-size: 12px;
+    //     margin-bottom: 40px;
+    //     font-family: "Avenir Next LT W01 Demi", Arial, sans-serif;
+    //     color: #666666;
+    // }
+    // a {
+    //     font-family: "Avenir Next LT W01 Demi", Arial, sans-serif;
+    //     font-size: 12px;
+    //     color: #1d5799;
+    //     padding-left: 6px;
+    //     padding-right: 6px;
+    //     display: inline !important;
+    //     padding-left: 0px !important;
+    // }
+    
+    // .container80percent {
+    //     width: 80%;
+    //     padding-right: 15px;
+    //     padding-left: 15px;
+    //     margin-right: auto;
+    //     margin-left: auto;
+    // }
+    
+    // @media (max-width: 1000px) {
+    //     .container80percent {
+    //     padding-left: 40px !important;
+    //     padding-right: 40px !important;
+    //     width: 100% !important;
+    //     }
+    // }
+    // }
+    
+    // @media (max-width: 770px) {
+    // .legalfooter {
+    //     p {
+    //     margin-top: 13px !important;
+    //     margin-bottom: 0px !important;
+    //     }
+    // }
+    }
       
 @import "../../components/footerList/footerList.scss"
 

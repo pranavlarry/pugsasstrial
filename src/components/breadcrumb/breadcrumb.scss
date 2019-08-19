@@ -2,8 +2,10 @@
     background-color: white;
     max-width: 1018px!important;
     margin: auto!important;
+    padding-bottom: 35px;
     &__item{
         font-size: .85rem;
+        font-weight: 700;
     }
     &__a{
         color: rgb(29, 87, 153);
