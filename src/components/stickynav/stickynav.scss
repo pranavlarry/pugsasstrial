@@ -6,28 +6,26 @@
     &__pad2{
         padding: 0;
     }
-    &__first{ 
+    &__link--color-green{ 
         background: #00AEAA; 
     }
-    &__second{ 
-        max-height: 135px;
+    &__link--color-darkblue{ 
         background: #00294B; 
     }
-    &__third{ 
-        max-height: 135px;
+    &__link--color-blue{ 
         background: #0099E2;
     }
-    &__first:hover{
+    &__link--color-green:hover{
         background:rgb(54, 138, 136);
-        border-bottom: 5px solid rgb(153, 153, 153); 
+        border-bottom: 5px solid rgb(226, 223, 223); 
     }
-    &__second:hover{
+    &__link--color-darkblue:hover{
         background: rgb(11, 28, 43);
-        border-bottom: 5px solid rgb(153, 153, 153); 
+        border-bottom: 5px solid rgb(226, 223, 223); 
     }
-    &__third:hover{
+    &__link--color-blue:hover{
         background: rgb(0, 130, 190);
-        border-bottom: 5px solid rgb(153, 153, 153); 
+        border-bottom: 5px solid rgb(226, 223, 223); 
     }
     &__span{
         font-size: 21px;
@@ -35,9 +33,13 @@
         color: #fff;
     }
     &__sub{
-        font-size: 13px;
+        font-size: 15px;
         color: #fff;
         font-weight: bold;
+    }
+    &__link{
+        padding: .5rem 2.5rem!important;
+        max-height: 135px;
     }
 
     @media (min-width: 1160px) {
@@ -51,6 +53,9 @@
         &__list{
             padding-left: 0;
             padding-right: 0;
+        }
+        &__link{
+            padding: 0.5rem 1rem!important;
         }
     }
 }

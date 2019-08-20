@@ -8,6 +8,9 @@
   }
   &__btn{
     color: white!important;
+    text-decoration: none!important;
+    font-size: 13px;
+    font-weight: bold;
   }
   &__content{
     background-color: rgb(94, 93, 93)!important;
@@ -17,17 +20,20 @@
   }
   &__a{
     color: white!important;
+    font-size: 14px;
   }
   .btn.btn-link{
       &::before {
         content: "\25BC ";
         font-weight: bolder;
+        font-size: 10px;
       }
     }
 
   .btn.btn-link.collapsed{
       &::before{
-        content: "\25BA ";
+        content: "\25B8 ";
+        font-size: 20px;
         font-weight: bolder;
       }
   }
