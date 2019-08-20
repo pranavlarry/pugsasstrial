@@ -11,15 +11,22 @@ block pageTitle
 block content
     .content
         //- include ../../components/nav/stickynav.pug
-        include ../../components/nav2/nav2.pug
-        include ../../components/breadcrumb/breadcrumb.pug
-        include ../../components/parallaxbanner/parallaxbanner.pug
+        header
+            include ../../components/nav2/nav2.pug
+            include ../../components/breadcrumb/breadcrumb.pug
+        section
+            include ../../components/parallaxbanner/parallaxbanner.pug
         include ../../components/stickynav/stickynav.pug
-        include ../../components/article/article1.pug
-        include ../../components/carousel/carousel.pug
-        include ../../components/container1/container1.pug
-        include ../../components/container/container.pug
-        include ../../components/article/article2.pug
+        section
+            include ../../components/article/article1.pug
+        section
+            include ../../components/carousel/carousel.pug
+        section
+            include ../../components/container1/container1.pug
+        section
+            include ../../components/container/container.pug
+        section
+            include ../../components/article/article2.pug
         include ../../components/footer/footer.pug
         include ../../components/socialmedia/socialmedia.pug
 
